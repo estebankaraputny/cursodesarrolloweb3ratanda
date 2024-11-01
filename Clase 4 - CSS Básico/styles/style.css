@@ -1,0 +1,27 @@
+* {
+    /*propiedad: valor;*/
+    margin: 0; /*MARGENES EXTERIORES*/
+    padding: 0;  /*MARGENES INTERNOS*/
+    box-sizing: border-box;
+}
+
+/*SELECTOR NOMBRE DE ETIQUETA p*/
+
+p {
+    /*propiedad: valor;*/
+    font-family: sans-serif; /*TIPO DE FUENTE*/
+    font-size: 50px; /*TAMAÑO DE FUENTE: Recibe valor en medidas (px, cm, rem, em, %)*/
+    color: brown;
+}
+
+/*SELECTOR POR CLASE .nombre-de-clase*/
+
+.imagen-de-prueba{
+    width: 500px; /*Modificar el ancho de un elemento (px, cm, rem, em, %)*/
+    height: 300px; /*Modificar el alto de un elemento (px, cm, rem, em, %)*/
+}
+
+.imagen-tres{
+    width: 500px;
+    height: 300px;
+}
