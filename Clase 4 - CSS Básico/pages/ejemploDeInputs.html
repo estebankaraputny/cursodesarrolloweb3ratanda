@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Ejemplo de Inputs HTML</title>
+    </head>
+    <body>
+
+        <h1>Ejemplo de Inputs en HTML</h1>
+
+        <form>
+            <!-- Campo de texto simple -->
+             <div>
+                 <label for="nombre">Nombre</label>
+                 <input type="text" id="nombre" name="nombre" required>
+             </div>
+            <!-- Campo de correo electrónico -->
+             <div>
+                 <label for="email">Correo Electrónico</label>
+                 <input type="email" id="email" name="email" required>
+             </div>
+            <!-- Campo de contraseña -->
+             <div>
+                 <label for="contraseña">Contraseña</label>
+                 <input type="password" id="nombre" name="nombre" required>
+             </div>
+            <!-- Campo de número -->
+             <div>
+                 <label for="edad">Edad</label>
+                 <input type="number" id="edad" name="edad" min="0" max="120">
+             </div>
+            <!-- Casilla de verificación CHECKBOX-->
+             <div>
+                 <label for="acepto">Acepto los términos y condiciones</label>
+                 <input type="checkbox" id="acepto" name="acepto" required>
+                 <input type="checkbox" id="no acepto" name="no acepto" required>
+                 <input type="checkbox" id="casi acepto" name="casi acepto" required>
+                 <input type="checkbox" id="jaja acepto" name="jaja acepto" required>
+             </div>
+             <!-- Casilla de verificación RADIO-->
+              <div>
+                  <label for="acepto">Acepto los términos y condiciones</label>
+                  <input type="radio" id="acepto" name="acepto" required value="SI">
+                  <input type="radio" id="acepto" name="acepto" required value="NO">
+                  <input type="radio" id="acepto" name="acepto" required value="Tal vez">
+              </div>
+            <!-- Botón de envío -->
+            <input type="submit" value="Enviar">
+            <!--BUSCAR INFORMACIÓN DE LOS TIPOS DE INPUTS QUE EXISTEN Y UTILIZARLOS-->
+        </form>
+
+    </body>
+</html>
