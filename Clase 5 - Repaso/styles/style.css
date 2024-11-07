@@ -1,0 +1,51 @@
+/*ESCRIBIR LOS ESTILOS DE LA PÁGINA*/
+
+/*Selector universal - selecciona todos los elementos de la página*/
+* {
+    /*Propiedades*/
+    margin: 0; /*Espacio exterior del contenedor*/
+    padding: 0; /*Espacio interno del contenedor*/
+    box-sizing: border-box;
+    font-family: sans-serif; /*Tipo de fuente-letra */
+}
+
+/*Selector por etiqueta- selecciona todas las etiquetas del mismo tipo*/
+
+p {
+    color: chocolate;
+    font-size: 20px;
+}
+
+li{
+    margin: 40px;
+}
+
+a{
+    background-color: white;
+    font-size: 20px;
+    padding: 15px;
+    margin: 50px;
+    color: black;
+}
+
+/*Selector por clase - selecciona el elemento de la página que tenga ese nombre de clase*/
+
+.titulo-inicio{
+    margin: 50px;
+    padding: 20px;
+    font-size: 50px; /*Tamaño de fuente-letra */
+    color: red;
+    text-align: center; /*Orientación del texto*/
+}
+
+.encabezado{
+    /*Estilos*/
+    background-color: blue;
+    width: 1000px;
+    height: 500px;
+}
+
+.img-logo{
+    width: 50px; /*Ancho del elemento seleccionado*/
+    height: 50px; /*Alto del elemento seleccionado*/
+}
