@@ -126,15 +126,30 @@
     margin-bottom: 30px;
 }
 
-.producto img {
+.img-product{
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    object-fit: cover;
+    margin-bottom: 10px;
 }
 
-.producto img:hover {
+.img-product:hover{
     transform: scale(1.1);
+}
+
+.content-info-product{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.price{
+    text-align: left;
+    color: #000000;
+    font-weight: 600;
 }
 
 .boton-comprar {
@@ -239,4 +254,27 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
+}
+
+
+/*Media Querys - Adaptar página a diferentes dispositivos*/
+
+@media (max-width: 800px) {
+
+    .productos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .producto{
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .content-nav{
+        background-color: #4b113b;
+    }
+
+    
 }
