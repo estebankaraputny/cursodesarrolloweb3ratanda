@@ -1,0 +1,242 @@
+/* Reset general */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Encabezado */
+.content-nav {
+    background-color: #6f1c48;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.titulo-principal {
+    font-size: 1.8rem;
+}
+
+.navegacion .list-link {
+    display: flex;
+    list-style: none;
+}
+
+.navegacion .link-nav {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+.navegacion .link-nav:hover {
+    color: #f0f0f0;
+    font-weight: 600;
+}
+
+/* Portada con imagen */
+.portada {
+    background-image: url('../asset/image/portada.jpg'); /* Cambia la ruta de la imagen */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.portada-contenido {
+    max-width: 80%;
+    padding: 20px;
+}
+
+.portada h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.portada p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.boton-ver-vinos {
+    background-color: #6f1c48;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-ver-vinos:hover {
+    background-color: #4b113b;
+    transform: scale(1.05);
+}
+
+/* Sección de bienvenida */
+.bienvenida {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.bienvenida h2 {
+    font-size: 2rem;
+}
+
+.bienvenida p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+}
+
+.link-ver-productos {
+    background-color: #6f1c48;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.link-ver-productos:hover {
+    background-color: #4b113b;
+    transform: scale(1.05);
+}
+
+/* Productos */
+.productos {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 30%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.producto img:hover {
+    transform: scale(1.1);
+}
+
+.boton-comprar {
+    background-color: #6f1c48;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.boton-comprar:hover {
+    background-color: #4b113b;
+    transform: scale(1.05);
+}
+
+/* Beneficios */
+#beneficios {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#beneficios ul {
+    list-style: none;
+    padding: 0;
+}
+
+#beneficios li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+/* Testimonios */
+#testimonios {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#testimonios p {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* Formulario de contacto */
+#contacto {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label, form input, form textarea, form button {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #6f1c48;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

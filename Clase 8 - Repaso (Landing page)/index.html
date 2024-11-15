@@ -5,53 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Compra los mejores vinos en línea con envío a domicilio. Variedades seleccionadas y ofertas exclusivas.">
     <title>Vinos - El terruño</title>
+    <link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-
     <!-- Encabezado -->
-    <header>
-        <h1>Compra Vino en Línea</h1>
-        <nav>
-            <ul>
-                <li><a href="#productos">Nuestros Productos</a></li>
-                <li><a href="#beneficios">Beneficios</a></li>
-                <li><a href="#testimonios">Testimonios</a></li>
-                <li><a href="#contacto">Contáctanos</a></li>
+    <header class="content-nav">
+        <h1 class="titulo-principal">El Terruño</h1>
+        <nav class="navegacion">
+            <ul class="list-link">
+                <li><a href="#productos" class="link-nav">Nuestros Productos</a></li>
+                <li><a href="#beneficios" class="link-nav">Beneficios</a></li>
+                <li><a href="#testimonios" class="link-nav">Testimonios</a></li>
+                <li><a href="#contacto" class="link-nav">Contáctanos</a></li>
             </ul>
         </nav>
     </header>
+
+    <!-- Portada estática con imagen de fondo -->
+    <section class="portada">
+        <div class="portada-contenido">
+            <h2>Descubre los mejores vinos del mundo</h2>
+            <p>Compra vino premium desde la comodidad de tu hogar y disfrútalo con los tuyos.</p>
+            <a href="#productos" class="boton-ver-vinos">Ver nuestros vinos</a>
+        </div>
+    </section>
+
     <main>
-        <h1>El Terruño</h1>
-          <!-- Sección de bienvenida -->
-        <section>
+        <!-- Sección de bienvenida -->
+        <section class="bienvenida">
             <h2>Bienvenido a la mejor tienda de vinos</h2>
             <p>En nuestra tienda encontrarás una amplia selección de vinos de calidad, ideales para cualquier ocasión. ¡Haz tu pedido y disfruta del mejor vino en tu hogar!</p>
-            <a href="#productos">Ver nuestros vinos</a>
+            <a href="#productos" class="link-ver-productos">Ver nuestros vinos</a>
         </section>
 
         <!-- Sección de productos -->
-        <section id="productos">
+        <section id="productos" class="productos">
             <h2>Nuestros Productos</h2>
-            <div>
+            <div class="producto">
                 <h3>Vino Tinto Reserva</h3>
-                <img src="vino_tinto.jpg" alt="Vino Tinto Reserva">
+                <img src="./asset/image/tinto.png" alt="Vino Tinto Reserva">
                 <p>Un vino tinto de reserva con una intensa personalidad, perfecto para acompañar carnes rojas.</p>
                 <p>Precio: $20</p>
-                <a href="#comprar">Comprar ahora</a>
+                <a href="#comprar" class="boton-comprar">Comprar ahora</a>
             </div>
-            <div>
+            <div class="producto">
                 <h3>Vino Blanco Seco</h3>
-                <img src="vino_blanco.jpg" alt="Vino Blanco Seco">
+                <img src="./asset/image/blanco.jfif" alt="Vino Blanco Seco">
                 <p>Vino blanco seco ideal para acompañar pescados y mariscos. Fresco y con un toque afrutado.</p>
                 <p>Precio: $15</p>
-                <a href="#comprar">Comprar ahora</a>
+                <a href="#comprar" class="boton-comprar">Comprar ahora</a>
             </div>
-            <div>
+            <div class="producto">
                 <h3>Vino Rosado</h3>
-                <img src="vino_rosado.jpg" alt="Vino Rosado">
+                <img src="./asset/image/rosado.jfif" alt="Vino Rosado">
                 <p>Un vino rosado suave y refrescante, ideal para un picnic o una tarde de verano.</p>
                 <p>Precio: $18</p>
-                <a href="#comprar">Comprar ahora</a>
+                <a href="#comprar" class="boton-comprar">Comprar ahora</a>
             </div>
         </section>
 
@@ -97,9 +106,7 @@
                 <button type="submit">Enviar</button>
             </form>
         </section>
-        
     </main>
-  
 
     <!-- Pie de página -->
     <footer>
