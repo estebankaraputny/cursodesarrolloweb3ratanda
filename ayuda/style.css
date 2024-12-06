@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    background-color:#272727 ;
+    
+}
+
+.encabezado {
+    background-color: #a31616;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+.div-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img-logo {
+    object-fit: cover;
+    width: 120px;
+    height: 80px;
+}
+
+
+.nav-list {
+    margin: 0;
+}
+
+.nav-item {
+    padding: 10px;
+    display: inline-block;
+}
+
+.nav-link:hover {
+    background-color: #b22c2c;
+}
+
+.nav-link, .about {
+    color: #aca9a9;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #a31616;
+    
+}
+
+.nav-link-button {
+    text-decoration: none;
+    border:1px solid #aca9a9;
+    background-color: #aca9a9;
+    padding: 4px;
+    color:#a31616;
+    border-radius: 5px;
+}
+
+.nav-link-button:hover {
+    background: transparent;
+    color: #aca9a9;
+}
+
+.titulo-inicio{
+    color: #aca9a9;
+}
+
+.titulo-inicio::first-letter{
+    color:#a31616;
+    font-size: 3.5rem;
+}
+
+/*INICIO DE CSS*/
+
+/* Sección de nutrición */
+.nutricion {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #fff;
+}
+
+.nutricion .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.titulo-nutri {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.parrafo-nutri {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 40px;
+}
+
+.content-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.card {
+    background-color: #a31616;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card ul {
+    list-style-type: decimal;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.tips {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tips h3 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.tips ul {
+    list-style: none;
+    font-size: 18px;
+    color: #444;
+}
+
+.tips ul li {
+    margin-bottom: 10px;
+}
+
+/* Sección de rutinas */
+.rutinas {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f4f4f4;
+}
+
+.rutinas .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.rutinas h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.rutinas .cards-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Sección de descanso */
+/* Estilo para la sección de descanso */
+.descanso {
+    padding: 60px 20px;
+    background-color: #f0f0f0; /* Fondo gris suave */
+    background-image: url('./pexels-andrea-piacquadio-3771069-scaled-1920x1080.jpg'); /* Imagen de fondo opcional */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin-top: 60px;
+}
+
+.descanso::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Superposición oscura para que el texto resalte */
+    border-radius: 8px;
+    z-index: 1;
+}
+
+.descanso .container {
+    position: relative;
+    z-index: 2;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.descanso h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.descanso p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    font-style: italic;
+}
+
+.descanso-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.descanso-tips {
+    width: 45%;
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Transición suave */
+}
+
+.descanso-tips:hover{
+    background-color: #000000;
+    padding: 25px;
+    transition: calc();
+}
+
+.descanso-tips ul {
+    list-style-type: none;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+.descanso-tips ul li {
+    margin-bottom: 15px;
+}
+
+.descanso-image {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.descanso-image img {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+

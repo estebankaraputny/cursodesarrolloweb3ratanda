@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Compra los mejores ropas en línea con envío a domicilio. Variedades seleccionadas y ofertas exclusivas.">
+    <title>Elegance Boutique</title>
+   <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+    <header class="content-nav" class="header">
+        <h1 class="titulo-principal">Elegance Boutique</h1>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Buscar productos...">
+            <button type="submit" class="search-button">🔍</button>
+        </div>
+        <nav class="navegacion">
+            <ul class="list-link">
+                <li><a href="../index.html" class="link-nav">Inicio</a></li>
+                <li><a href="./about.html" class="link-nav">Nosotros</a></li>
+                <li><a href="./contact.html" class="link-nav">Contacto</a></li>
+                <li><img height="30px" src="../asset/image/icons8-carrito-de-compras-50.png" alt="Carro de Compras"></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="cuerpo">
+        <!-- Sección de contacto -->
+        <section id="contacto">
+            
+             <!-- Video agregado dentro de la misma estructura -->
+       
+            <div class="contacto-contenedor">
+                <div class="contacto-video">
+                    <iframe width="660" height="315" src="https://www.youtube.com/embed/is6O29gQde8?si=jPRTdKCXfjUEiHT_" 
+                    title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                
+                <div class="contacto-box">
+                    <h2 class="titulo-contact">Contáctanos</h2>
+                    <p class="p-contacto">Si tienes alguna duda o pregunta, no dudes en ponerte en contacto con nosotros:</p>
+                    <form action="enviar_contacto" method="post">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        
+                        <label for="email">Correo electrónico:</label>
+                        <input type="email" id="email" name="email" required>
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" required></textarea>
+                        
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                
+            </div>
+            <div class="informacion-contacto">
+                <h3>Otras formas de contacto:</h3>
+                <ul>
+                    <li><strong>Teléfono:</strong> +1 234 567 890</li>
+                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/1234567890" target="_blank">Envianos un mensaje por WhatsApp</a></li>
+                </ul>
+            </div>
+
+        </section>
+         <!-- Información de contacto adicional -->
+    
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <div class="footer-contenedor">
+            <!-- Información principal -->
+            <div class="footer-informacion">
+                <p>&copy; 2024 Elegance Boutique. Todos los derechos reservados.</p>
+                <p>Correo: <a href="mailto:contacto@EleganceBoutique.com" class="footer-enlace">contacto@EleganceBoutique.com</a></p>
+            </div>
+            <!-- Redes sociales -->
+            <div class="footer-redes">
+                <p>Síguenos en:</p>
+                <ul class="redes-lista">
+                    <img height="40px" src="../asset/image/Facebook.png" alt="Logo de Facebook">
+                    <li><a href="https://www.facebook.com/EleganceBoutique" class="redes-enlace">Facebook</a></li>
+                    <img height="40px" src="../asset/image/Instagram.png" alt="Logo de Instagram">
+                    <li><a href="https://www.instagram.com/EleganceBoutique" class="redes-enlace">Instagram</a></li>
+                    <img height="40px" src="../asset/image/Twitter.png" alt="Logo de Twitter">
+                    <li><a href="https://www.twitter.com/EleganceBoutique" class="redes-enlace">Twitter</a></li>
+                </ul>
+            </div>
+              <!-- Medios de pago -->
+        
+          <!-- Medios de pago -->
+          <div class="footer-medios-pago">
+            <p>Medios de Pagos:</p>
+            <ul class="redes-lista">
+                <li>
+                    <img height="40px" src="../asset/image/Visa-1.jfif" alt="Logo de Visa">
+                    Visa
+                </li>
+                <li>
+                    <img height="40px" src="../asset/image/Master Card.jfif" alt="Logo de Mastercard">
+                    Mastercard
+                </li>
+            </ul>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
+

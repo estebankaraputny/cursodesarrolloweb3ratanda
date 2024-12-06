@@ -278,3 +278,28 @@ footer a:hover {
 
     
 }
+
+
+
+
+
+
+
+
+
+.section-video{
+    width: 100%;
+}
+
+.content-video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-image: url(../asset/image/portada.jpg);
+}
+
+.video{
+    width: 70%;
+    height: 70vh; /*Averiguar el VH y el VW*/
+}
